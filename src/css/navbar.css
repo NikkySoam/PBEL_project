@@ -1,0 +1,57 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Make sure it's above other elements */
+  background-color: #fff; /* or whatever background you want */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ margin-bottom: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f77c18;
+  padding: 15px 30px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navleft {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e6dfde; 
+}
+.court{
+  color: #694503;
+}
+
+.navright {
+  display: flex;
+  gap: 20px;
+}
+
+.navright a {
+  text-decoration: none;
+  color: rgb(250, 242, 242);
+  font-size: 16px;
+  transition: color 0.3s, transform 0.3s;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navright a:hover {
+  color: #756d6d;
+  transform: scale(1.1);
+}
+
+.navright .active {
+  background-color: #ca630f;
+  color: rgb(55, 31, 7);
+}
+
+.navright NavLink img{
+  color: white;
+}

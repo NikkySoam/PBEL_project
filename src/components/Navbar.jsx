@@ -1,18 +1,22 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { NavLink } from 'react-router'
+import '../css/navbar.css'
+import ProfileIcon from '../images/profile.svg'
+import cartIcon from '../images/cart.svg'
+
 function Navbar() {
     return (
-        <div>
+        <div className='navbar'>
             <nav className='nav'>
-                <div className='navleft'>foodCourt</div>
+                <div className='navleft'>food<span className='court'>Court</span></div>
                 <div className='navright'>
-                <Link to="/">Home</Link> 
-                <Link to="/about">About</Link> 
-                <Link to="/contact">Contact</Link>
-                <Link to="/profile">profile</Link>
-               </div>
+                    <NavLink to="/" end>Home</NavLink>
+                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/cart"><img src={cartIcon} alt="Profile" /></NavLink>
+                    <NavLink to="/profile" className='Profile'> <img src={ProfileIcon} alt="Profile" /></NavLink>
+                </div>
             </nav>
-
         </div>
     )
 }

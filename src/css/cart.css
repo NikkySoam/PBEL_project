@@ -1,0 +1,23 @@
+
+.cart-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ece8e8;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 50px;
+}
+
+.cart-heading {
+  text-align: center;
+  font-size: 28px;
+  color: #ea7f27;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.food-card {
+  margin-bottom: 20px;
+}

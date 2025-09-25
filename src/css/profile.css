@@ -1,0 +1,65 @@
+.profile-section {
+  padding: 60px 20px;
+  background-color: #fff8f0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.profile-container {
+  max-width: 900px;
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.profile-container h1, .profile-container NavLink {
+  font-size: 30px;
+  color: #ff6347;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-info, .user-orders, .user-cart {
+  margin-bottom: 30px;
+}
+
+.user-info h2, .user-orders h2, .user-cart {
+  font-size: 24px;
+  color: #ff6347;
+  margin-bottom: 15px;
+}
+
+.user-info p {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.user-orders ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.user-orders li{
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.user-orders li .delivered {
+  color: green;
+  font-weight: bold;
+}
+
+.user-orders li .pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.Profile img{
+    width: 20px;
+}
